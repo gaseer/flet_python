@@ -8,13 +8,10 @@ def main(page: Page):
     page.vertical_alignment = "center"
 
     txt_field = TextField(value="0", width=100, text_align="right")
-
-    
     def minus_clicked(e):
         txt_field.value = int(txt_field.value) - 1
         page.update()
 
-    
     def plus_clicked(e):
         txt_field.value = int(txt_field.value) + 1
         page.update()
