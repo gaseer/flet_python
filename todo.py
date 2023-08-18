@@ -17,7 +17,6 @@ from flet import (
     icons,
 )
 
-
 class Task(UserControl):
     def __init__(self, task_name, task_status_change, task_delete):
         super().__init__()
@@ -30,6 +29,7 @@ class Task(UserControl):
         self.display_task = Checkbox(
             value=False, label=self.task_name, on_change=self.status_changed
         )
+        
         self.edit_name = TextField(expand=1)
 
         self.display_view = Row(
@@ -90,7 +90,6 @@ class Task(UserControl):
     def status_changed(self, e):
         self.completed = self.display_task.value
         self.task_status_change(self)
-
 
 class MyTodoApp(UserControl):
     def build(self):
