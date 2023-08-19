@@ -8,7 +8,6 @@ Flutter app whose content is controlled by a remote Python script. It is an idea
 
 
 ## Tech Stack
-
 - **Flutter:** The heart and soul of this app's UI.
 - **Python:** Powering the app's UI using the pythons framework flet.
 - **Firebase:** Handling backend services like authentication and storage.
