@@ -9,7 +9,6 @@ def main(page: Page):
     def minus_clicked(e):
         txt_field.value = int(txt_field.value) - 1
         page.update()
-
     def plus_clicked(e):
         txt_field.value = int(txt_field.value) + 1
         page.update()
