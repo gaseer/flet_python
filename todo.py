@@ -1,5 +1,6 @@
 from calendar import c
 import flet
+
 from flet import (
     Page,
     TextField,
@@ -16,6 +17,7 @@ from flet import (
     colors,
     icons,
 )
+
 class Task(UserControl):
     def __init__(self, task_name, task_status_change, task_delete):
         super().__init__()
