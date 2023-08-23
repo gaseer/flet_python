@@ -30,7 +30,6 @@ class Task(UserControl):
         self.display_task = Checkbox(
             value=False, label=self.task_name, on_change=self.status_changed
         )
-        
         self.edit_name = TextField(expand=1)
 
         self.display_view = Row(
