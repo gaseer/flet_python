@@ -25,6 +25,8 @@ def main(page: Page):
             alignment="center",
         )
     )
+
+
     
 flet.app(target=main, view=flet.WEB_BROWSER)
 
