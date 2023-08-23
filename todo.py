@@ -71,12 +71,14 @@ class Task(UserControl):
 
         return Column(controls=[self.display_view, self.edit_view])
 
+    
     def edit_clicked(self, e):
         self.edit_name.value = self.display_task.label
         self.display_view.visible = False
         self.edit_view.visible = True
         self.update()
 
+    
     def save_clicked(self, e):
         self.display_task.label = self.edit_name.value
         self.display_view.visible = True
