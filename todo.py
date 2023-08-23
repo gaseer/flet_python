@@ -25,6 +25,7 @@ class Task(UserControl):
         self.task_name = task_name
         self.task_status_change = task_status_change
         self.task_delete = task_delete
+        
     def build(self):
         self.display_task = Checkbox(
             value=False, label=self.task_name, on_change=self.status_changed
