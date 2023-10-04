@@ -9,6 +9,7 @@
 Flutter app whose content is controlled by a remote Python script. It is an ideal solution for building non-core or frequently changing functionality such as product catalog, feedback form, in-app survey or support chat. Flet enables your team to ship new features faster by reducing the number of App Store validation cycles. Flet is a framework that allows building interactive multi-user web, desktop and mobile applications in your favorite language without prior experience in frontend development.
 
 ## Tech Stack
+
 - **Flutter:** The heart and soul of this app's UI.
 - **Python:** Powering the app's UI using the pythons framework flet.
 - **Firebase:** Handling backend services like authentication and storage.
