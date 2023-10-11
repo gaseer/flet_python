@@ -14,7 +14,7 @@ def main(page: Page):
         txt_field.value = int(txt_field.value) + 1
         page.update()
     page.add(
-        
+    
         Row(
             [
                 IconButton(icons.REMOVE, on_click=minus_clicked),
