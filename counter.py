@@ -23,6 +23,7 @@ def main(page: Page):
                 IconButton(icons.ADD, on_click=plus_clicked),
             ],
             alignment="center",
+            
         )
     )
 
