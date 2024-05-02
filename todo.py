@@ -18,6 +18,7 @@ from flet import (
     icons,
 )
 
+
 class Task(UserControl):
     def __init__(self, task_name, task_status_change, task_delete):
         super().__init__()
@@ -93,6 +94,7 @@ class Task(UserControl):
         self.task_status_change(self)
 
 class MyTodoApp(UserControl):
+    
     def build(self):
         self.new_task = TextField(hint_text="Add a new task here", expand=True)
         self.tasks = Column()
@@ -169,7 +171,6 @@ class MyTodoApp(UserControl):
                 count += 1
         self.items_left.value = f"{count} active item(s) left"
         super().update()
-
 
 def main(page: Page):
     page.title = "Todo App"
